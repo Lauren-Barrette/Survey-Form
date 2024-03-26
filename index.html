@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pyromaniacs Club Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1 id="title">Pyromaniacs Club Survey Form</h1>
+      <p id="description">Join, we love everyone here :)</p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name <input  id="name" type="text" placeholder="Name here hehe" required/><label>
+          <label id="email-label" for="email">Email <input id="email" name="email" type="email" placeholder="Email here :)" required /></label>
+          <label  id="number-label" for="number">Age <input id= "number" type="number" name="number" placeholder="age here silly" min="13" max="120" /></label>
+          <label>What role you want here?
+            <select id="dropdown">
+               <option value="">(pick one)</option>
+               <option value="1">Teacher</option>
+               <option value="2">assistant</option>
+               <option value="3">student</option>
+              </select>
+            </label>
+            You will recommend us right?
+            <label><input type="radio" name="recommendation" class="inline" value="yes" />of course</label>
+            <label><input type="radio" name="recommendation" class="inline" value="yes" >most certainly</label>
+            <fieldset>
+            <label>What do you look forward to?</label>
+           <label><input type="checkbox" name="hopes" class="inline" value="Socializing" />Chatting with fellow members</label>
+             <label><input type="checkbox" name="hopes" class="inline" value="friends" />Making friends</label>
+           <label><input type="checkbox" name="hopes" class="inline" value="destiny" />Finding a purpouse in life</label>
+            <label><input type="checkbox" name="hopes" class="inline" value="coward" />Running away from your irl problems</label>
+            <label><input type="checkbox" name="hopes" class="inline" value="pitiful" />Filling a void (we're here for you, you're never alone)</label>
+            </fieldset>
+            <fieldset>
+        <label for="comments"> Leave a NICE comment :)
+        <textarea id="comments" name="comments" placeholder="leave NICE comment here hehe"></textarea> 
+          </label>
+          </fieldset>
+        <input id="submit" type="submit" value="submit" />
+        </form>
+      </body>
+      </html>
